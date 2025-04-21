@@ -43,7 +43,7 @@ class ModelInput(BaseModel):
     Joint_involvement: int
     Proteinuria: int
     Renal_biopsy: int
-    anti_cardiolipin_anitbody: int
+    anti_cardiolipin_antibody: int
     anti_b2gp1_antibody: int
     lupus_anticoagulant: int
     low_c3: int

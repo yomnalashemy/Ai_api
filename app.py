@@ -44,8 +44,8 @@ class ModelInput(BaseModel):
     Proteinuria: int
     Renal_biopsy: int
     anti_cardiolipin_anitbody: int
-    lupus_anticoagulant: int
     anti_b2gp1_antibody: int
+    lupus_anticoagulant: int
     low_c3: int
     low_c4: int
     anti_dsDNA_antibody: int

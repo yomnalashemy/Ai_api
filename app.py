@@ -44,8 +44,8 @@ class ModelInput(BaseModel):
     Proteinuria: int
     Renal_biopsy: int
     anti_cardiolipin_anitbody: int
-    lupus_anticoagulant: int
     anti_b2gp1_antibody: int
+    lupus_anticoagulant: int
     low_c3: int
     low_c4: int
     anti_dsDNA_antibody: int
@@ -74,7 +74,7 @@ async def predict_endpoint(data: ModelInput):
             data.Autoimmune_hemolysis, data.Delirium, data.Psychosis, data.Seizure,
             data.Non_scarring_alopecia, data.Oral_ulcers, data.Cutaneous_lupus, data.Pleural_effusion,
             data.Pericardial_effusion, data.Acute_pericarditis, data.Joint_involvement, data.Proteinuria,
-            data.Renal_biopsy, data.anti_cardiolipin_anitbody, data.lupus_anticoagulant, data.anti_b2gp1_antibody,
+            data.Renal_biopsy, data.anti_cardiolipin_anitbody, data.anti_b2gp1_antibody, data.lupus_anticoagulant,
             data.low_c3, data.low_c4, data.anti_dsDNA_antibody, data.anti_smith_antibody
         ]
         
